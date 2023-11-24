@@ -1,0 +1,40 @@
+==>First we create a array of all items in memory grid
+ 
+==> next select the selectors of div (grid)
+now we need to put images in grid
+function createBoard()
+{
+    ==>loop through the array and add create img element (card)
+    ==>now using setAttribute add src of those img to blank(backgroung pic)
+    ==>give also the ids to using setAttributemethod 
+    ==>add event listener to card and give callback of the function on click
+}
+
+fucntion flipped()
+{
+    ==>using this.getattribute get the ids of cards assign to cardid
+    ==>now using cardarray[cardid].img==get allimages in the cards
+    (this.setAttribute('src',cardArray[cardId].img);)
+
+    ==>now we create a array(cardchoosen,cardid)
+    ==>choosen one will have all the names of cardarray and id one will have all cardid
+    if(selected 2 then settime(check,500))
+}
+
+fucntion checked(){
+    ==>if(cardChoosen[0]==cardChoosen[1])   ===>(comparing if they have same images)
+    then make them as white on matching and stop the event
+    check for the syntax----
+    else
+    {
+        make them blank image
+    }
+    restart the( name and id one) 
+    
+     cardChoosen=[];
+    cardchoosenIds=[];
+    store them in result one using (cardWon array)cd ..
+    
+     using innerHTML
+
+}
